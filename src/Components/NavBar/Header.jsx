@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import "./Header.css";
 
-export const Header = () => {
+const Header = () => {
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
@@ -27,7 +27,7 @@ export const Header = () => {
 
           <li className="nav-item">
             <Link
-              to="/products"
+              to="/quienessomos"
               className="nav-links"
               onClick={closeMobileMenu}
             >
@@ -36,7 +36,7 @@ export const Header = () => {
           </li>
           <li className="nav-item">
             <Link
-              to="/contact-us"
+              to="/contacto"
               className="nav-links"
               onClick={closeMobileMenu}
             >
@@ -48,3 +48,5 @@ export const Header = () => {
     </>
   );
 };
+
+export default Header;
