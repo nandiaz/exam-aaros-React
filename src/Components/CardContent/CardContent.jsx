@@ -1,6 +1,120 @@
-import React from "react";
-import { ContentWrap } from "./contentStyles";
+import { React, useRef } from "react";
+import Flippy, { FrontSide, BackSide } from "react-flippy";
+import "./CardContent.css";
 
 export const CardContent = () => {
-  return <ContentWrap></ContentWrap>;
+  const ref = useRef();
+  return (
+    <div className="container-flip">
+      <Flippy
+        flipOnHover={true} // default false
+        flipOnClick={false} // default false
+        flipDirection="horizontal" // horizontal or vertical
+        ref={ref}
+        className="flippy-container"
+      >
+        <FrontSide className="flip-front">
+          <img src="/auto.jpg" className="img-flip" alt="imgflip"></img>
+          <div className="title-img">
+            <h1>AUTOS</h1>
+          </div>
+        </FrontSide>
+        <BackSide style={{ backgroundColor: "#178d8f" }}>
+          <img src="/auto.jpg" className="img-flip-back" alt="imgflip"></img>
+          <div className="text-img">
+            <h1>Protege: </h1>
+            <p>
+              Los daños o pérdida del automóvil y los daños o perjuicios
+              causados a la propiedad ajena o a terceras personas con motivo del
+              uso del automovil
+            </p>
+          </div>
+        </BackSide>
+      </Flippy>
+
+      <Flippy
+        flipOnHover={true} // default false
+        flipOnClick={false} // default false
+        flipDirection="horizontal" // horizontal or vertical
+        ref={ref}
+        className="flippy-container"
+      >
+        <FrontSide className="flip-front">
+          <img
+            src="/gastosmedicos.jpg"
+            className="img-flip"
+            alt="imgflip"
+          ></img>
+          <div className="title-img-sgm">
+            <h1>SEGURO DE GASTOS MEDICOS</h1>
+          </div>
+        </FrontSide>
+        <BackSide style={{ backgroundColor: "#178d8f" }}>
+          <img
+            src="/gastosmedicos.jpg"
+            className="img-flip-back"
+            alt="imgflip"
+          ></img>
+          <div className="text-img">
+            <h1>Protege: </h1>
+            <p>
+              Los daños o pérdida del automóvil y los daños o perjuicios
+              causados a la propiedad ajena o a terceras personas con motivo del
+              uso del automovil
+            </p>
+          </div>
+        </BackSide>
+      </Flippy>
+      <Flippy
+        flipOnHover={true} // default false
+        flipOnClick={false} // default false
+        flipDirection="horizontal" // horizontal or vertical
+        ref={ref}
+        className="flippy-container"
+      >
+        <FrontSide className="flip-front">
+          <img src="/hogar.jpg" className="img-flip" alt="imgflip"></img>
+          <div className="title-img">
+            <h1>HOGAR</h1>
+          </div>
+        </FrontSide>
+        <BackSide style={{ backgroundColor: "#178d8f" }}>
+          <img src="/hogar.jpg" className="img-flip-back" alt="imgflip"></img>
+          <div className="text-img">
+            <h1>Protege: </h1>
+            <p>
+              Los daños o pérdida del automóvil y los daños o perjuicios
+              causados a la propiedad ajena o a terceras personas con motivo del
+              uso del automovil
+            </p>
+          </div>
+        </BackSide>
+      </Flippy>
+      <Flippy
+        flipOnHover={true} // default false
+        flipOnClick={false} // default false
+        flipDirection="horizontal" // horizontal or vertical
+        ref={ref}
+        className="flippy-container"
+      >
+        <FrontSide className="flip-front">
+          <img src="/vida.jpeg" className="img-flip" alt="imgflip"></img>
+          <div className="title-img">
+            <h1> VIDA </h1>
+          </div>
+        </FrontSide>
+        <BackSide style={{ backgroundColor: "#178d8f" }}>
+          <img src="/vida.jpeg" className="img-flip-back" alt="imgflip"></img>
+          <div className="text-img">
+            <h1>Protege: </h1>
+            <p>
+              Los daños o pérdida del automóvil y los daños o perjuicios
+              causados a la propiedad ajena o a terceras personas con motivo del
+              uso del automovil
+            </p>
+          </div>
+        </BackSide>
+      </Flippy>
+    </div>
+  );
 };
