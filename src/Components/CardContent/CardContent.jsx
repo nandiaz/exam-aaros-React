@@ -2,7 +2,7 @@ import { React, useRef } from "react";
 import Flippy, { FrontSide, BackSide } from "react-flippy";
 import "./CardContent.css";
 
-export const CardContent = () => {
+const CardContent = () => {
   const ref = useRef();
   return (
     <div className="container-flip">
@@ -58,9 +58,9 @@ export const CardContent = () => {
           <div className="text-img">
             <h1>Protege: </h1>
             <p>
-              Los daños o pérdida del automóvil y los daños o perjuicios
-              causados a la propiedad ajena o a terceras personas con motivo del
-              uso del automovil
+              Los honorarios médicos, hospitalarios y demás que sean necesarios
+              para la recuperación de la salud o vigor vital del asegurado,
+              cuando se hayan afectado por causa de un accidente o enfermedad.
             </p>
           </div>
         </BackSide>
@@ -83,9 +83,9 @@ export const CardContent = () => {
           <div className="text-img">
             <h1>Protege: </h1>
             <p>
-              Los daños o pérdida del automóvil y los daños o perjuicios
-              causados a la propiedad ajena o a terceras personas con motivo del
-              uso del automovil
+              A la vivienda y a sus habitantes contra daños que pudieran sufrir
+              a causa de fenómens naturales o robo, daños que pueda ocasionar
+              una mascota, entre otras.
             </p>
           </div>
         </BackSide>
@@ -108,9 +108,9 @@ export const CardContent = () => {
           <div className="text-img">
             <h1>Protege: </h1>
             <p>
-              Los daños o pérdida del automóvil y los daños o perjuicios
-              causados a la propiedad ajena o a terceras personas con motivo del
-              uso del automovil
+              Es un respaldo económico el cúal su función princupal es
+              indemnizar a los beneficiarios designados con una suma de dinero
+              en caso del fallecimiento de la persona asegurada.
             </p>
           </div>
         </BackSide>
@@ -118,3 +118,5 @@ export const CardContent = () => {
     </div>
   );
 };
+
+export default CardContent;
