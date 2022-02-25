@@ -1,6 +1,6 @@
-import { React, useRef, useState } from "react";
+import { React, useRef } from "react";
 import Flippy, { FrontSide, BackSide } from "react-flippy";
-import Contact from "../Category/Contacto/Contact";
+
 import "./CardContent.css";
 
 const CardContent = () => {

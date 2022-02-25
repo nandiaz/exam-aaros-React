@@ -11,43 +11,43 @@ const Contact = () => {
           Llena el siguiente formulario y uno de nuestros asesores se pondrá en
           contacto contigo
         </p>
-        <form class="was-validated">
-          <div class="col-md-10">
+        <form className="was-validated">
+          <div className="col-md-10">
             <label for="validationDefault01" class="form-label">
               Nombre
             </label>
             <input
               type="text"
-              class="form-control"
+              className="form-control"
               id="validationDefault01"
               required
             />
           </div>
-          <div class="col-md-10">
+          <div className="col-md-10">
             <label for="validationDefault01" class="form-label">
               Email
             </label>
             <input
               type="email"
-              class="form-control"
+              className="form-control"
               id="validationDefault01"
               required
             />
           </div>
 
-          <div class="col-md-6">
+          <div className="col-md-6">
             <label for="validationTextArea" class="form-label">
               Mensaje
             </label>
             <textarea
               type="text"
-              class="form-control is-invalid"
+              className="form-control is-invalid"
               id="validationTextArea"
               required
             />
           </div>
-          <div class="col-12">
-            <button class="btn btn-primary" type="submit">
+          <div className="col-12">
+            <button className="btn btn-primary" type="submit">
               Submit form
             </button>
           </div>
