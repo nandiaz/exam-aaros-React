@@ -28,13 +28,13 @@ const ContentWho = () => {
           </div>
           <div>
             <img src="/vida.jpeg" alt="vida" className="img-who" />
-            <h1>MISION</h1>
-            <p>Atracción y desarrollo de personas</p>
+            <h1>VISION</h1>
+            <p>Crecimiento</p>
           </div>
           <div>
             <img src="/vida.jpeg" alt="vida" className="img-who" />
-            <h1>MISION</h1>
-            <p>Atracción y desarrollo de personas</p>
+            <h1>FILOSOFIA</h1>
+            <p>Servicio</p>
           </div>
         </div>
       </div>

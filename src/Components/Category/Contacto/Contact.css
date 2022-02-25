@@ -1,0 +1,23 @@
+.formContact{
+    margin-left: 200px;
+    width: 600px;
+}
+
+@media screen and (max-width: 960px) {
+    .formContact{
+        width: 400px;
+        margin-left: 200px;
+    }
+}
+@media screen and (max-width: 520px) {
+    .formContact{
+        margin-left: 70px;
+        width: 300px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .formContact{
+        margin-left: 20px;
+        width: 200px;
+    }
+}

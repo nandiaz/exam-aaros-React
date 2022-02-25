@@ -2,6 +2,8 @@
   height: 200px;
   text-align: center;
   padding: 50px;
+  font-size: large;
+  color: gray;
 }
 
 .container-img {
@@ -10,6 +12,7 @@
   grid-gap: 100px;
   justify-content: center;
   text-align: center;
+  color: rgb(10, 10, 105);
 }
 
 .img-who {
