@@ -1,5 +1,5 @@
 # AARCO
-You can open the [Travel Time](https://travel-time-eiya.netlify.app/)  app.
+Podras ver el proyecto de[AARCO](https://aarco-exam.netlify.app/)  aqui!
 
 Presentando el resultado de un reto técnico. 
 
