@@ -65,7 +65,7 @@ height: 100%;
 
 
 
-@media screen and (max-width: 1078px) {
+@media screen and (max-width: 1178px) {
     .container-flip{
         display: grid;
         grid-template-columns: auto,auto ;
